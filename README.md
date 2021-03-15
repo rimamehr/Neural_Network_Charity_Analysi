@@ -36,4 +36,6 @@ Our task was to perform ETL process on this data then train and test it to creat
     Attempt 2 adding neurons
     Attempt 3 Change Activation Function with Callback
 
+## Summary
 
+The deep learning model has a better accuracy score compared to the other models. But comparing between increasing hidden layers vs increasing neurons or epochs, the accuracy was better when we changed activation function with Callback. 
