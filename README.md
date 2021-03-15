@@ -27,7 +27,13 @@ Our task was to perform ETL process on this data then train and test it to creat
   
   
 - Compiling, Training, and Evaluating the Model
-  - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-  - Were you able to achieve the target model performance?
-  - What steps did you take to try and increase model performance?
+  - How many neurons, layers, and activation functions did you select for your neural network model, and why? I selected two hidden layers with the following neurons for each   layer. In my optimazation model i played around to achieve higher accuracy.
+ **hidden_nodes_layer1 =  24.
+   hidden_nodes_layer2 = 12**
+  - Were you able to achieve the target model performance? Not at first but with few changes and optimizing the model i was able to achieve close to 75% accuracy
+  - What steps did you take to try and increase model performance? I took following steps to increase model performance
+    Attempt 1 adding more hidden layers
+    Attempt 2 adding neurons
+    Attempt 3 Change Activation Function with Callback
+
 
